@@ -1,0 +1,24 @@
+1. Convolution
+Convolution is basically used for image recognition, images classifications. Objects detections, recognizing faces, etc. The input of the image is detected with the help of kernels.  Kernels help to detect the image edges & gradient is called channels. 
+
+2. Filter/Kernels
+The filter is a small matrix used for features detection of image. The filters have moved over the image, a feature map is developed for each filter. These are then taken through an activation function, which checks whether a certain feature is present in the image.
+
+3. Epochs
+One epoch means all dataset passing one backward and forward through the neural network only one time. That is, to process the input data on a model for both forward propagation and backpropagation. We usually use more than 100 epochs to train a model and increase accuracy.
+
+4. 1x1 Convolution
+1x1 Convolution is used to reduce the number of channels in one model. That is, 1x1 is used to reduce dimensions.
+
+5. 3x3 Convolution
+3x3 convolution, the kernel size is smaller than the channel size. As a result, the 3x3 filter can move in all 3-direction (height, width, channel of the image). At each position, the element-wise multiplication and addition provide one number. 3x3 convolution is always given 2 sizes less than the input size. This can be called as 3x3 matric, filter, and kernel.
+
+
+6. Feature Maps
+The number of filters (kernel) you will use on the input will result in the same amount of feature maps.
+
+7. Activation Function
+Activation Function is used at the end of each layer and Activation functions will decide whether to trigger this neuron or not.
+
+8. Receptive Field
+Receptive fields are referred to as a number of pixels that can be seen/processed my a filter/kernel at a time. In the end, the receptive field of the final layer should able to see/cover the whole input size of the image.
